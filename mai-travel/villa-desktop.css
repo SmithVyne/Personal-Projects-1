@@ -1,0 +1,81 @@
+/* this set the major font family for the webpage, the font size, background image, and make the background image to be in center and no stretch or corp */
+html {
+    font-family: "kalam";
+    font-size: 20px;
+    background-image: url("./background.jpg");
+    background-position: center;
+    background-size: contain;    
+}
+/* this makes the minimum shrink of the webpage = "content width + body margin", it will not shrink more than this*/
+Body {
+    min-width: auto;
+    margin: 10%;
+}
+
+#whatsapp {
+    background-color: transparent;
+    border-style: none;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    position: fixed;
+    top: 85%;
+    left: 92%;
+}
+/* this is the flex container which conatin all 4 posts which should appear in the page*/
+#line1 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 10%;
+}
+
+.villa-imgs {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 300px;
+}
+
+
+#villa-1 {
+    box-sizing: border-box;
+    color: black;
+    background-color: white;
+    border-style: dashed;
+    display: inline-block;
+    padding: 5%;
+    width: 500px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/*
+#div-5 {
+    box-sizing: border-box;
+    display: block;
+    color: black;
+    background-color: white;
+    border-style: dashed;
+    margin: auto;
+    padding: 2.5%;
+    width: 1300px;
+    margin-top: 5%;
+    margin-bottom: 4%;
+    }
+
+#footer {
+    box-sizing: border-box;
+    display: block;
+    color: black;
+    background-color: white;
+    border-style: dashed;
+    margin: auto;
+    padding: 2.5%;
+    width: 1300px;
+    }
+*/
+   
