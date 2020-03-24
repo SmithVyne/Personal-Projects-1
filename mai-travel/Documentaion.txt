@@ -1,4 +1,0 @@
-class "villa-imags" conatin all images for all villas in the website
-
-each post has it's own div and his own div id in the fomart "villa-x" where x is unique number for the villa
-
